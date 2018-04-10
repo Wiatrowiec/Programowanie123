@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void zmiana(char *tab){
+int i;
+for (i=0;tab[i]!=0;i++)
+    if ((tab[i]>='a')&&(tab[i]<='z'))
+        {
+        tab[i]-=('a'-'A');
+        }
+}
+
+int main(){
+char napis[]="abCDde";
+
+zmiana(napis);
+printf("%s",napis);
+return 0;
+}

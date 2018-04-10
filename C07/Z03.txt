@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int przepisz (char *napis, char *napis2){
+int i=0;
+    while(napis[i]!=0)
+        {
+        napis2[i]=napis[i];
+        i++;
+        }
+        return 0;
+}
+
+int main(){
+char napis2[0];
+char napis[]="abcde";
+
+przepisz(napis,napis2);
+printf("%s",napis2);
+return 0;
+}

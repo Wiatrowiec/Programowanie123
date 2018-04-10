@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int strl(char *napis)
+    {
+    int strl=0;
+    while(napis[0]!=0)
+        {
+        strl++;
+
+        }
+    return i;
+    }
+int strl(wchar_t *napis)
+    {
+    int strl=0;
+    while(napis[0]!=0)
+        {
+        strl++;
+
+        }
+    return i;
+    }
+int main(){
+
+    }

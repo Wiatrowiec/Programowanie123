@@ -1,0 +1,21 @@
+void porownaj(char *nap,char *nap2,int n){
+int i;
+for (i=0l(nap[i]!=0)&&(nap2[i]!=0);i++)
+    if (nap[i+1]!=nap2[i])
+        return false;
+    if (nap2[i]==0)
+        return true;
+    else
+        return false;
+}
+
+
+void wytnij (char *tab,char *tab2){
+int i,dl;
+for (dl=0;tab2[dl]!=0;dl++);
+for (i=0;tab[i]!=0;i++)
+    if (porownaj(tab,tab2,i)){
+    wytnij(tab,i,i+dl-1);
+    return;
+    }
+}

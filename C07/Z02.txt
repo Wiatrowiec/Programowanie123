@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int strl(char *napis)
+    {
+    int i=0;
+    while(napis[i]!=0)
+        {
+        i++;
+        }
+    return i;
+    }
+int strl1(wchar_t *napis)
+    {
+    int i=0;
+    while(napis[i]!=0)
+        {
+        i++;
+        printf("dupa");
+        }
+    return i;
+    }
+
+int porownaj(char *napis, char *napis5)
+{
+if (strl(napis)!=strl(napis5))
+    {
+    return 0;
+    }
+else
+    {
+    return 1;
+    }
+}
+
+int main(){
+char napis[]="dwdwd";
+char napis2[]="dwdwdrge";
+printf("%d",porownaj(napis,napis2));
+return 0;
+}

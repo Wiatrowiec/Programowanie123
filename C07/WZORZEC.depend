@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1523352178 source:d:\programowanie\c07\main.c
+	"Z05.txt"
+
+1523348063 d:\programowanie\c07\z00.txt
+	<stdio.h>
+	<stdlib.h>
+
+1523349276 d:\programowanie\c07\z02.txt
+	<stdio.h>
+	<stdlib.h>
+
+1523350841 d:\programowanie\c07\z04.txt
+	<stdio.h>
+	<stdlib.h>
+
+1523353033 d:\programowanie\c07\z05.txt
+	<stdio.h>
+	<stdlib.h>
+
